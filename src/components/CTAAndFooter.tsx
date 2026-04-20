@@ -9,7 +9,7 @@ export function CTASection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section ref={ref} className="py-16 md:py-24 relative">
+    <section id="download" ref={ref} className="py-16 md:py-24 relative">
       <div className="container px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
