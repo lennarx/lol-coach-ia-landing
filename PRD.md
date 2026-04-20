@@ -40,7 +40,7 @@ Una landing page informativa de una sola vista con múltiples secciones que pres
 - Progression: Lectura de pasos numerados → Comprensión de simplicidad → Reducción de objeciones
 - Success criteria: Números grandes dorados visibles, copy ultra-simple, flujo de 1-2-3 obvio
 
-**Testimonials Section**
+**Testimonials Section (Reseñas de Usuarios)**
 - Functionality: Proveer social proof y resultados específicos
 - Purpose: Generar confianza y mostrar resultados reales
 - Trigger: Scroll
