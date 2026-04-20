@@ -22,7 +22,7 @@ export function CTASection() {
           </h2>
           
           <p className="text-xl md:text-2xl text-foreground/80 mb-10">
-            Descargá LoL Coach IA gratis y empezá a mejorar hoy.
+            Descargá Rift Coach gratis y empezá a mejorar hoy.
           </p>
 
           <motion.div
@@ -71,7 +71,7 @@ export function Footer() {
 
           <div className="text-center md:text-right">
             <p className="text-foreground/60 text-sm">
-              © 2026 LoL Coach IA
+              © 2026 Rift Coach — TigerForge Labs
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ export function Footer() {
         <Separator className="my-6" />
 
         <p className="text-foreground/40 text-sm text-center">
-          LoL Coach IA no está avalado por Riot Games ni por ninguna de sus filiales.
+          Rift Coach no está avalado por Riot Games ni por ninguna de sus filiales.
         </p>
       </div>
     </footer>
