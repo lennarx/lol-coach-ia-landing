@@ -3,6 +3,7 @@ import { MainFeaturesSection } from "@/components/MainFeaturesSection"
 import { ExtraFeaturesSection } from "@/components/ExtraFeaturesSection"
 import { HowItWorksSection } from "@/components/HowItWorksSection"
 import { TestimonialsSection } from "@/components/TestimonialsSection"
+import { PricingSection } from "@/components/PricingSection"
 import { CTASection, Footer } from "@/components/CTAAndFooter"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <ExtraFeaturesSection />
       <HowItWorksSection />
       <TestimonialsSection />
+      <PricingSection />
       <CTASection />
       <Footer />
     </div>

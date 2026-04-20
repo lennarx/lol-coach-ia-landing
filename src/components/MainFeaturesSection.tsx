@@ -46,7 +46,7 @@ export function MainFeaturesSection() {
           className="text-center mb-12 md:mb-16"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase mb-4 text-gradient-gold">
-            ¿Qué hace LoL Coach IA?
+            ¿Qué hace Rift Coach?
           </h2>
         </motion.div>
 

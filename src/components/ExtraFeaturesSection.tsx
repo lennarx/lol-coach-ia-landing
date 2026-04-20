@@ -23,6 +23,11 @@ const extraFeatures = [
     icon: "🔍",
     title: "Player Scouting",
     description: "En la pantalla de carga ves el perfil de los 10 jugadores: rango, WR en el campeón, keystone, spells"
+  },
+  {
+    icon: "🧠",
+    title: "Chat con el Coach",
+    description: "Después de cada partida, chateá con el coach sobre lo que pasó. Preguntá por qué muriste en ese teamfight, qué ítem debías haber comprado, o cómo podías haber cerrado el juego antes. Solo Premium."
   }
 ]
 
@@ -40,6 +45,7 @@ export function ExtraFeaturesSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              className={extraFeatures.length % 2 !== 0 && index === extraFeatures.length - 1 ? "md:col-span-2 md:max-w-[calc(50%-1rem)] md:mx-auto md:w-full" : ""}
             >
               <Card className="glass-card p-6 md:p-8 h-full hover:border-primary/50 transition-all duration-300">
                 <div className="flex items-start gap-4">

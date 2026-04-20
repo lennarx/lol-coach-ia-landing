@@ -1,12 +1,11 @@
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { motion } from "framer-motion"
 
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/10 via-background to-background" />
-      
+
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-[100px]" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/10 rounded-full blur-[120px]" />
@@ -19,10 +18,6 @@ export function HeroSection() {
           transition={{ duration: 0.6 }}
           className="max-w-5xl mx-auto text-center"
         >
-          <Badge className="mb-6 bg-primary text-primary-foreground hover:bg-primary/90 text-sm px-4 py-1.5">
-            Gratis durante la beta
-          </Badge>
-
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight mb-6 text-gradient-gold">
             Subí de Elo con Inteligencia Artificial
           </h1>
